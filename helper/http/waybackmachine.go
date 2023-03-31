@@ -38,7 +38,6 @@ func WayBackRequest(target string) (timestamp string, respUrl string) {
 	
 	// More reports whether there is another element in the current array or object being parsed.
 	for dec.More() {
-		
 		err := dec.Decode(&decodedResp)
 		if err != nil {
 			panic(err)
