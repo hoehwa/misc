@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestRequest(t *testing.T) {
+func TestWayBackRequest(t *testing.T) {
 	target := "example.com"
 
 	timestamp, respUrl := WayBackRequest(target)

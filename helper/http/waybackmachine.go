@@ -30,18 +30,20 @@ func WayBackRequest(target string) (timestamp string, respUrl string) {
 	// see this:
 	// https://pkg.go.dev/net/http#pkg-overview
 	defer resp.Body.Close()
-
+	
+	dec := json.NewDecoder(resp.Body)
+	
 	// declare a WayBackResponse type variable to parse response.
 	var decodedResp WaybackJSONResponse
-
-	jsonDecode(resp, decodedResp)
+	
+	// More reports whether there is another element in the current array or object being parsed.
+	for dec.More() {
+		
+		err := dec.Decode(&decodedResp)
+		if err != nil {
+			panic(err)
+		}
+	}
 
 	return decodedResp.ArchivedSnapshots.Closest.Timestamp, decodedResp.ArchivedSnapshots.Closest.URL
-}
-
-func jsonDecode(httpResp *http.Response, addrOfResp WaybackJSONResponse) {
-	err := json.NewDecoder(httpResp.Body).Decode(&addrOfResp)
-	if err != nil {
-		panic(err)
-	}
 }
