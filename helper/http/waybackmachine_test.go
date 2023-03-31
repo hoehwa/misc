@@ -8,7 +8,7 @@ import (
 func TestRequest(t *testing.T) {
 	target := "example.com"
 
-	timestamp, respUrl := Request(target)
+	timestamp, respUrl := WayBackRequest(target)
 
 	fmt.Println(timestamp, respUrl)
 }

@@ -18,7 +18,7 @@ type WaybackJSONResponse struct {
 }
 
 // send a request through wayback machine.
-func Request(target string) (timestamp string, respUrl string) {
+func WayBackRequest(target string) (timestamp string, respUrl string) {
 	wayBackMachineBaseurl := "https://archive.org/wayback/available?url="
 	reqUrl := wayBackMachineBaseurl + target
 	resp, err := http.Get(reqUrl)
