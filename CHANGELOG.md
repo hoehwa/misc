@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/mindulle/misc/compare/v1.0.1...v1.1.0) (2023-04-01)
+
+
+### Features
+
+* add examples folder ([4887f29](https://github.com/mindulle/misc/commit/4887f29c0045b7c9f3ae3baedac1773313527e25))
+* add helper in order to get current root directory ([1be2c47](https://github.com/mindulle/misc/commit/1be2c475eeb8668f1f9c3ddcbf9054cf79294f25))
+
 # 1.0.0 (2023-03-31)
 
 
