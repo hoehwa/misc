@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mindulle/misc/compare/v1.1.0...v1.1.1) (2023-04-01)
+
+
+### Bug Fixes
+
+* rename package names to resolve duplicated package name with built-in package ([9445f6e](https://github.com/mindulle/misc/commit/9445f6ebb763d0851c10ecd86b0c4f7cff421f76))
+
 # [1.1.0](https://github.com/mindulle/misc/compare/v1.0.1...v1.1.0) (2023-04-01)
 
 
