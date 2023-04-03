@@ -5,10 +5,10 @@ import (
 )
 
 func ReadFile(filename string) string {
-	// Open the file
+	// If file does not exist, make a file.
 	file, err := os.Open(filename)
 	if err != nil {
-		panic(err)
+		os.Create(filename)
 	}
 	defer file.Close()
 
