@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/charmbracelet/glamour"
+	myfile "github.com/mindulle/misc/helper/file"
 )
 
 
@@ -32,5 +33,12 @@ func Render() {
 	`
 
 	out, _ := glamour.Render(in, "dark")
+	fmt.Print(out)
+}
+
+
+func RenderFile(filename string) {
+	in := myfile.ReadFile(filename)
+	out, _ := glamour.Render(in, "light")
 	fmt.Print(out)
 }
