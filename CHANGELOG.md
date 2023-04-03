@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/mindulle/misc/compare/v1.1.1...v1.2.0) (2023-04-03)
+
+
+### Features
+
+* add a feature which make a file if file doesn't exist ([e92317c](https://github.com/mindulle/misc/commit/e92317cb2f0e177269d9d911f395d1698d572f52))
+* add helpers to render markdonw files in terminal ([75fe2f8](https://github.com/mindulle/misc/commit/75fe2f836b404cec43655d4aaf347e11a23cfa90))
+
 ## [1.1.1](https://github.com/mindulle/misc/compare/v1.1.0...v1.1.1) (2023-04-01)
 
 
