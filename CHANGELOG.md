@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/mindulle/misc/compare/v1.2.0...v1.3.0) (2023-04-03)
+
+
+### Features
+
+* add a function which render a markdown with file ([c9d2112](https://github.com/mindulle/misc/commit/c9d2112c0cc929fe390e8c16590245a9af5e558f))
+* update ReadFile function to create a file if it isn't exist ([84b1303](https://github.com/mindulle/misc/commit/84b1303a05092b216c4dfada9f980a6ca7545e2c))
+
 # [1.2.0](https://github.com/mindulle/misc/compare/v1.1.1...v1.2.0) (2023-04-03)
 
 
