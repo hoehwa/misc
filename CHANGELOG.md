@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/mindulle/misc/compare/v1.3.0...v1.3.1) (2023-04-04)
+
+
+### Bug Fixes
+
+* add a parameter field on function to allow function to treact a file with directory ([156e93c](https://github.com/mindulle/misc/commit/156e93c2b924ade5613c51536c831e22b0a28a1a))
+* prevent a program be dead if target file doesn't exist ([8f0c916](https://github.com/mindulle/misc/commit/8f0c916b52c7dd13826899ba8e4879accd2c6072))
+
 # [1.3.0](https://github.com/mindulle/misc/compare/v1.2.0...v1.3.0) (2023-04-03)
 
 
