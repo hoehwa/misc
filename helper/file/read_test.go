@@ -6,6 +6,6 @@ import (
 )
 
 func TestReadfile(t *testing.T) {
-	output := ReadFile("example.txt")
+	output := ReadFile("./javascript/","example.txt")
 	fmt.Println(output)
 }

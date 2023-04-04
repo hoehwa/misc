@@ -4,16 +4,21 @@ import (
 	"os"
 )
 
-func ReadFile(filename string) string {
-	// If file does not exist, make a file.
-	file, err := os.Open(filename)
+func ReadFile(path string, filename string) string {
+	// If file or directory doesn't exist, make one.
+	if _, err := os.Stat(path + filename); os.IsNotExist(err) {
+		os.MkdirAll(path, os.ModePerm)
+		os.Create(path + filename)
+	}
+
+	file, err := os.Open(path + filename)
 	if err != nil {
-		os.Create(filename)
+		panic(err)
 	}
 	defer file.Close()
 
 	// Read the file contents into a byte slice
-	fileInfo, err := file.Stat()
+	fileInfo, _ := file.Stat()
 	if err != nil {
 		panic(err)
 	}
