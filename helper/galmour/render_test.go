@@ -7,5 +7,5 @@ func TestRender(t *testing.T) {
 }
 
 func TestRenderFile(t *testing.T) {
-	RenderFile("test.md")
+	RenderFile("./","test.md")
 }

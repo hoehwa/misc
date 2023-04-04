@@ -37,8 +37,8 @@ func Render() {
 }
 
 
-func RenderFile(filename string) {
-	in := myfile.ReadFile(filename)
+func RenderFile(path string, filename string) {
+	in := myfile.ReadFile(path, filename)
 	out, _ := glamour.Render(in, "light")
 	fmt.Print(out)
 }
