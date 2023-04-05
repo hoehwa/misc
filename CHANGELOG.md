@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/mindulle/misc/compare/v1.3.1...v1.3.2) (2023-04-05)
+
+
+### Bug Fixes
+
+* prevent a program be dead if target file doesn't exist ([d37b068](https://github.com/mindulle/misc/commit/d37b06822485685cca63d4c57f09404baedb9333))
+
 ## [1.3.1](https://github.com/mindulle/misc/compare/v1.3.0...v1.3.1) (2023-04-04)
 
 
