@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mindulle/misc/compare/v1.3.2...v1.4.0) (2023-04-06)
+
+
+### Features
+
+* add append file function to accumlate datas into a file ([ab866ef](https://github.com/mindulle/misc/commit/ab866ef6893ae04d062b8915d734cfa7e9ed68f9))
+
 ## [1.3.2](https://github.com/mindulle/misc/compare/v1.3.1...v1.3.2) (2023-04-05)
 
 
