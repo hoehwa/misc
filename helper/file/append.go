@@ -9,7 +9,7 @@ import (
 // prevent concurrent writes to the file from causing data corruption.
 var mu sync.Mutex
 
-func AppendToFile(path string, filename string, data string) error {
+func AppendToFile(path string, filename string, data []byte) error {
 	// If file or directory doesn't exist, make one.
 	if _, err := os.Stat(path + filename); os.IsNotExist(err) {
 		os.MkdirAll(path, os.ModePerm)
@@ -19,13 +19,13 @@ func AppendToFile(path string, filename string, data string) error {
 	mu.Lock()
   defer mu.Unlock()
 
-  f, err := os.OpenFile(path + filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+  file, err := os.OpenFile(path + filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
   if err != nil {
     return err
   }
-  defer f.Close()
+  defer file.Close()
 
-  _, err = f.WriteString(data)
+  _, err = file.Write(data)
   if err != nil {
     return err
   }
