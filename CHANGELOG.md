@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/mindulle/misc/compare/v1.4.0...v1.4.1) (2023-04-06)
+
+
+### Bug Fixes
+
+* change type of second param to byte array ([722b9f9](https://github.com/mindulle/misc/commit/722b9f9500186df4a75ee69e59ff3ebd0a002979))
+
 # [1.4.0](https://github.com/mindulle/misc/compare/v1.3.2...v1.4.0) (2023-04-06)
 
 
