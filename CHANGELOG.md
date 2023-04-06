@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mindulle/misc/compare/v1.4.1...v1.5.0) (2023-04-06)
+
+
+### Features
+
+* add yaml package ([fcb2f36](https://github.com/mindulle/misc/commit/fcb2f36cd2236de8ceaa6c8bc06f401b0eb911c6))
+
 ## [1.4.1](https://github.com/mindulle/misc/compare/v1.4.0...v1.4.1) (2023-04-06)
 
 
