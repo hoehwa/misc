@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/mindulle/misc/compare/v1.5.0...v1.6.0) (2023-04-27)
+
+
+### Features
+
+* init principles folder ([9add3f3](https://github.com/mindulle/misc/commit/9add3f3d47c099cb1168fc04d1e825e5426dbd5d))
+
 # [1.5.0](https://github.com/mindulle/misc/compare/v1.4.1...v1.5.0) (2023-04-06)
 
 
